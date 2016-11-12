@@ -1,7 +1,7 @@
 <?php
 
-function sum() {
-    return 1 + 1;
+function sum($num1, $num2) {
+    return $num1 + $num2;
 }
 
-echo sum();
+echo sum(1,1);
